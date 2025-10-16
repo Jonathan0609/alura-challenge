@@ -1,0 +1,14 @@
+.card {
+  border-color: #1ca7c8;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(28, 167, 200, 0.3);
+}
