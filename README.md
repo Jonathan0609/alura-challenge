@@ -18,24 +18,6 @@ Também utiliza **Biome** para linting/formatação e **Axios** para chamadas HT
 
 ---
 
-## Estrutura do Projeto
-
-.
-├── src
-│ ├── app # Rotas e páginas (App Router)
-│ ├── components # Componentes reutilizáveis
-│ ├── hooks # Hooks customizados
-│ ├── lib # Configurações e utilitários
-│ ├── services # Serviços e chamadas de API
-│ ├── styles # Estilos globais e tema Mantine
-│ └── types # Tipos TypeScript globais
-├── public # Arquivos estáticos
-├── .biome.json # Configuração do Biome
-├── tsconfig.json # Configuração do TypeScript
-└── package.json
-
----
-
 ## Pré-requisitos
 
 - [Node.js](https://nodejs.org/) (versão LTS recomendada)
