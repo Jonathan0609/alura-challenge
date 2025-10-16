@@ -7,7 +7,7 @@ Também utiliza **Biome** para linting/formatação e **Axios** para chamadas HT
 
 ---
 
-## 🧰 Tecnologias
+## Tecnologias
 
 - [Next.js](https://nextjs.org/) — Framework React full-stack com suporte a SSR/SSG
 - [Mantine](https://mantine.dev/) — Biblioteca de componentes React moderna
