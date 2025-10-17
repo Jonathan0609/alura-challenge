@@ -11,7 +11,7 @@ import {
 } from "@mantine/core";
 import { useState } from "react";
 import { usePostsByCategory } from "@/core/domains/posts/posts.hooks";
-import PostListCard from "../../ListCard";
+import PostCard from "../../Card";
 
 interface Props {
   categorySlug: string;
@@ -37,7 +37,7 @@ export default function PostDetailsRelatedList({ categorySlug }: Props) {
         <Grid>
           {posts.map((post) => (
             <GridCol key={post.id} span={{ base: 12, md: 4 }}>
-              <PostListCard post={post} />
+              <PostCard post={post} />
             </GridCol>
           ))}
         </Grid>

@@ -15,7 +15,7 @@ import {
 } from "@mantine/core";
 import { IconSearch } from "@tabler/icons-react";
 import { useState } from "react";
-import PostListCard from "@/components/Post/ListCard";
+import PostCard from "@/components/Post/Card";
 import { categories } from "@/core/domains/posts/posts.contants";
 import { usePostsList } from "@/core/domains/posts/posts.hooks";
 
@@ -76,7 +76,7 @@ export default function HomePostList() {
         <Grid>
           {posts.map((post) => (
             <GridCol key={post.id} span={{ base: 12, md: 4 }}>
-              <PostListCard post={post} />
+              <PostCard post={post} />
             </GridCol>
           ))}
         </Grid>
