@@ -8,7 +8,7 @@ interface Props {
   post: PostData;
 }
 
-export default function PostListCard({ post }: Props) {
+export default function PostCard({ post }: Props) {
   return (
     <Card p={24} withBorder radius={4} className={classes.card}>
       <Stack justify="space-between" flex={1}>
